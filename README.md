@@ -22,3 +22,5 @@ await fetcher.generateBearerToken();
 // you would like to receive from the user
 const tweets = await fetcher.fetchUserTweets('peteralexbizjak', 150);
 ```
+
+If you want to run tests with `npm test`, you can do so, but you'll need to provide the API key, secret, screen name and first `[n]` amount of tweets that you'd like to fetch.
